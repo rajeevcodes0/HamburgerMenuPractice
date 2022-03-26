@@ -98,6 +98,7 @@ ul li:hover{
     position: absolute;
     top:0;
     left:0;
+    margin:10px;
 }
 
 .hamburger-icon-container-hidden{
@@ -160,6 +161,21 @@ ul li:hover{
         top:50%;
         transform: translateY(-50%);
         width: 80%;
+    }
+    .overlay{
+        height: 20vh;
+        width: 20vh;
+        border-radius: 100%;
+        position: absolute;
+        top:-10vh;
+        left:-10vh;
+        transition: all 0.3s;
+        z-index: 2;
+    }
+    .hamburger-icon-container, .arrow-icon-container{
+        height: 25px;
+        width: 25px;
+        margin:10px;
     }
 }
 

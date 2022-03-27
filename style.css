@@ -10,6 +10,7 @@
     --theme-color:rgb(105, 133, 194);
     --font-color: white;
 }
+
 body{
     overflow: hidden;
 }
@@ -38,6 +39,7 @@ body{
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
 }
+
 @keyframes overlay-fill-animation {
     0%{
         height: 60vh;
@@ -47,13 +49,10 @@ body{
 
     }
     100%{
-        height: 200vh;
-        width: 200vw;
-        top:0;
-        left:0;
-        top:0;
-        left:0;
-        border-top-left-radius: 0%;
+        height: 300vh;
+        width: 300vw;
+        top:-150vh;
+        left:-150vw;
     }
 }
 

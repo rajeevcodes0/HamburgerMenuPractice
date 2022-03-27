@@ -56,6 +56,52 @@ body{
     }
 }
 
+.overlay-fill-reverse-animation-class{
+    animation-name: overlay-fill-reverse-animation;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes overlay-fill-reverse-animation {
+    
+    0%{
+        height: 300vh;
+        width: 300vw;
+        top:-150vh;
+        left:-150vw;
+    }
+    100%{
+        height: 60vh;
+        width: 60vh;
+        top:-30vh;
+        left:-30vh;
+
+    }
+}
+
+.overlay-fill-reverse-animation-class-mobile{
+    animation-name: overlay-fill-reverse-animation-mobile;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes overlay-fill-reverse-animation-mobile {
+    
+    0%{
+        height: 300vh;
+        width: 300vw;
+        top:-150vh;
+        left:-150vw;
+    }
+    100%{
+        height: 20vh;
+        width: 20vh;
+        top:-10vh;
+        left:-10vh;
+
+    }
+}
+
 .link-list{
     display: block;
     position: absolute;
